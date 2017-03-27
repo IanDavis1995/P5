@@ -1,0 +1,13 @@
+digraph "ru.litun.unitingtwist.MyGLRenderer.loadShader"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node12 [label="ru.litun.unitingtwist.My\lGLRenderer.loadShader",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ru.litun.unitingtwist.Hexagon.\lHexagon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_hexagon.html#a3d32c6201950025897791017a2fa2002"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ru.litun.unitingtwist.Hexagon.init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_hexagon.html#a4f006c05f629c4a0cc83f258fc054850"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ru.litun.unitingtwist.My\lGLRenderer.onSurfaceCreated",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_my_g_l_renderer.html#a3e0a973d89aee9ef9b3a8b524a23a562"];
+}

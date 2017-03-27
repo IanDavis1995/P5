@@ -1,0 +1,9 @@
+digraph "ru.litun.unitingtwist.GyroscopeListener.onSensorChanged"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="ru.litun.unitingtwist.Gyroscope\lListener.onSensorChanged",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ru.litun.unitingtwist.Angle\lListener.setUp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfaceru_1_1litun_1_1unitingtwist_1_1_angle_listener.html#a244b0956ea8c19f61e207192802ef094"];
+}

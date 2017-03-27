@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "212222718022",
+    "firebase_url": "https://ceg3900-passwordhelper.firebaseio.com",
+    "project_id": "ceg3900-passwordhelper",
+    "storage_bucket": "ceg3900-passwordhelper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212222718022:android:1f87723237510d15",
+        "android_client_info": {
+          "package_name": "ian.ceg3900.edu.p5passwordhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212222718022-cmfcibtvgul57rout7cun3mujf14mokv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4_wEWC45XI70tOYUEYZDvR7S0i6uPu-Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,24 @@
+digraph "newUp"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node36 [label="newUp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node36 -> Node37 [color="midnightblue",fontsize="10",style="solid"];
+  Node37 [label="ru.litun.unitingtwist.Field\lGraph.rotate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_field_graph.html#a523014438b1a8318ec0915c2ce0a3430"];
+  Node37 -> Node38 [color="midnightblue",fontsize="10",style="solid"];
+  Node38 [label="ru.litun.unitingtwist.Graph\lGameHexagon.getPoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_graph_game_hexagon.html#ab83bca143bb78bf22c57d15fdeeb91b3"];
+  Node37 -> Node39 [color="midnightblue",fontsize="10",style="solid"];
+  Node39 [label="ru.litun.unitingtwist.Graph\lGameHexagon.hasHexagon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_graph_game_hexagon.html#ab614a366b275084140dc6b158d395887"];
+  Node39 -> Node40 [color="midnightblue",fontsize="10",style="solid"];
+  Node40 [label="ru.litun.unitingtwist.Game\lHexagonContainer.getHexagon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_game_hexagon_container.html#a27b622ba75ab99568513b95d4a5c1bd1"];
+  Node37 -> Node40 [color="midnightblue",fontsize="10",style="solid"];
+  Node37 -> Node41 [color="midnightblue",fontsize="10",style="solid"];
+  Node41 [label="ru.litun.unitingtwist.Game\lHexagon.setAngle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_game_hexagon.html#a32c6fb4b11e33873f5e32604012209d9"];
+  Node36 -> Node42 [color="midnightblue",fontsize="10",style="solid"];
+  Node42 [label="ru.litun.unitingtwist.Game\lHexagon.setColor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_game_hexagon.html#a75b9cb32ff80bf061791beb01a8433d0"];
+  Node36 -> Node43 [color="midnightblue",fontsize="10",style="solid"];
+  Node43 [label="ru.litun.unitingtwist.Color\lUtils.colorsCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_color_utils.html#ac3c1b83de2ac679481c2a1f30e47779e"];
+  Node36 -> Node44 [color="midnightblue",fontsize="10",style="solid"];
+  Node44 [label="ru.litun.unitingtwist.Flying\lGameHexagon.setVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_flying_game_hexagon.html#a2f0479e01d850d31068bf933ba268530"];
+}

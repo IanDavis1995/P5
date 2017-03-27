@@ -1,0 +1,17 @@
+digraph "onLose"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node8 [label="onLose",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node9 [label="ru.litun.unitingtwist.Field\lGraph.put",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_field_graph.html#ad00bb318775c75318a78b012a28a3cc8"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node10 [label="ru.litun.unitingtwist.Game\lField.GameField",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_game_field.html#a60249e68db18dd0bc0bd4f2f29281531"];
+  Node9 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node11 [label="ru.litun.unitingtwist.Game\lField.stopGenerating",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_game_field.html#a28a9f1f8fa9987e78b712b22aa8792a3"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node12 [label="ru.litun.unitingtwist.Scene.draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_scene.html#ace8a0d2a4e41b6d83897d48fd91a7ab3"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node13 [label="ru.litun.unitingtwist.My\lGLRenderer.onDrawFrame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_my_g_l_renderer.html#aba4bf3428902adb204d17703e7afcbc9"];
+}

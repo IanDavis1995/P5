@@ -1,0 +1,276 @@
+\section{Field\+Graph Class Reference}
+\label{classunitingtwist_1_1_field_graph}\index{Field\+Graph@{Field\+Graph}}
+
+
+Represent all the hexagons currently attached as a graph of points.  
+
+
+
+
+Inheritance diagram for Field\+Graph\+:
+% FIG 0
+
+
+Collaboration diagram for Field\+Graph\+:
+% FIG 1
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+interface {\bfseries Action}
+\begin{DoxyCompactList}\small\item\em Action interface that defines an anonymous operation that can be run on a hexagon in the graph. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Field\+Graph} (int n)
+\begin{DoxyCompactList}\small\item\em The scale of points in the graph. \end{DoxyCompactList}\item 
+List$<$ \textbf{ Graph\+Game\+Hexagon} $>$ \textbf{ get\+Endpoints} ()
+\begin{DoxyCompactList}\small\item\em Get the list of all hexagons on the edge of the board. \end{DoxyCompactList}\item 
+List$<$ \textbf{ Graph\+Game\+Hexagon} $>$ \textbf{ get\+Opened} ()
+\begin{DoxyCompactList}\small\item\em Get the list of all hexagons that are not filled in on the board. \end{DoxyCompactList}\item 
+\textbf{ Graph\+Game\+Hexagon} \textbf{ get\+Center} ()
+\begin{DoxyCompactList}\small\item\em Get the center hexagon. \end{DoxyCompactList}\item 
+void \textbf{ put} (\textbf{ Graph\+Game\+Hexagon} hexagon)
+\begin{DoxyCompactList}\small\item\em Put a new hexagon into the field graph. \end{DoxyCompactList}\item 
+void \textbf{ total\+Recount} ()
+\begin{DoxyCompactList}\small\item\em Recalculate the list of endpoints and opened points in the graph. \end{DoxyCompactList}\item 
+void \textbf{ rotate} (float angle)
+\begin{DoxyCompactList}\small\item\em The projection matrix used to rotate points by angles. \end{DoxyCompactList}\item 
+void \textbf{ set\+Game\+Listener} (\textbf{ Game\+Listener} listener)
+\begin{DoxyCompactList}\small\item\em A helper array storing offsets for adjacent indices around a given hexagon. \end{DoxyCompactList}\item 
+void \textbf{ update} (long delta\+Time)
+\begin{DoxyCompactList}\small\item\em Empty update method, as the graph does not get updated on each event loop tick. \end{DoxyCompactList}\item 
+void \textbf{ draw} (final float[$\,$] mvp\+Matrix)
+\begin{DoxyCompactList}\small\item\em Draw the initial representation on the Open\+GL surface. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final float \textbf{ S\+C\+A\+LE} = 0.\+1f
+\begin{DoxyCompactList}\small\item\em Points that do not have a hexagon on them? \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Represent all the hexagons currently attached as a graph of points. 
+
+Definition at line 15 of file Field\+Graph.\+java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\label{classunitingtwist_1_1_field_graph_a50fad078dee051b5961f8895d7861743}} 
+\index{unitingtwist\+::\+Field\+Graph@{unitingtwist\+::\+Field\+Graph}!Field\+Graph@{Field\+Graph}}
+\index{Field\+Graph@{Field\+Graph}!unitingtwist\+::\+Field\+Graph@{unitingtwist\+::\+Field\+Graph}}
+\subsubsection{Field\+Graph()}
+{\footnotesize\ttfamily \textbf{ Field\+Graph} (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+The scale of points in the graph. 
+
+Create a new \doxyref{Field\+Graph}{p.}{classunitingtwist_1_1_field_graph} with dimensions of n $\ast$ 2 -\/ 1.
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & The maximum number of hexagons to allow in each direction of the graph. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 28 of file Field\+Graph.\+java.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\label{classunitingtwist_1_1_field_graph_ac3e315879303dbd473ae480260356919}} 
+\index{unitingtwist\+::\+Field\+Graph@{unitingtwist\+::\+Field\+Graph}!draw@{draw}}
+\index{draw@{draw}!unitingtwist\+::\+Field\+Graph@{unitingtwist\+::\+Field\+Graph}}
+\subsubsection{draw()}
+{\footnotesize\ttfamily void draw (\begin{DoxyParamCaption}\item[{final float [$\,$]}]{mvp\+Matrix }\end{DoxyParamCaption})}
+
+
+
+Draw the initial representation on the Open\+GL surface. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mvp\+Matrix} & A projection matrix to apply to the drawing. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \textbf{ Drawable} \doxyref{}{p.}{interfaceunitingtwist_1_1_drawable_ace8a0d2a4e41b6d83897d48fd91a7ab3}.
+
+
+
+Definition at line 254 of file Field\+Graph.\+java.
+
+\mbox{\label{classunitingtwist_1_1_field_graph_aaa35ea3bb3d7a24fc6b10e7f4c3c0185}} 
+\index{unitingtwist\+::\+Field\+Graph@{unitingtwist\+::\+Field\+Graph}!get\+Center@{get\+Center}}
+\index{get\+Center@{get\+Center}!unitingtwist\+::\+Field\+Graph@{unitingtwist\+::\+Field\+Graph}}
+\subsubsection{get\+Center()}
+{\footnotesize\ttfamily \textbf{ Graph\+Game\+Hexagon} get\+Center (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the center hexagon. 
+
+\begin{DoxyReturn}{Returns}
+The center hexagon. 
+\end{DoxyReturn}
+
+
+Definition at line 60 of file Field\+Graph.\+java.
+
+\mbox{\label{classunitingtwist_1_1_field_graph_adfcfe2afa1402ef78e1aee3efb837c64}} 
+\index{unitingtwist\+::\+Field\+Graph@{unitingtwist\+::\+Field\+Graph}!get\+Endpoints@{get\+Endpoints}}
+\index{get\+Endpoints@{get\+Endpoints}!unitingtwist\+::\+Field\+Graph@{unitingtwist\+::\+Field\+Graph}}
+\subsubsection{get\+Endpoints()}
+{\footnotesize\ttfamily List$<$\textbf{ Graph\+Game\+Hexagon}$>$ get\+Endpoints (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the list of all hexagons on the edge of the board. 
+
+\begin{DoxyReturn}{Returns}
+The list of all hexagons on the edge of the board. 
+\end{DoxyReturn}
+
+
+Definition at line 44 of file Field\+Graph.\+java.
+
+\mbox{\label{classunitingtwist_1_1_field_graph_a8880d79fa3f1410ef0439864ae4775fd}} 
+\index{unitingtwist\+::\+Field\+Graph@{unitingtwist\+::\+Field\+Graph}!get\+Opened@{get\+Opened}}
+\index{get\+Opened@{get\+Opened}!unitingtwist\+::\+Field\+Graph@{unitingtwist\+::\+Field\+Graph}}
+\subsubsection{get\+Opened()}
+{\footnotesize\ttfamily List$<$\textbf{ Graph\+Game\+Hexagon}$>$ get\+Opened (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the list of all hexagons that are not filled in on the board. 
+
+\begin{DoxyReturn}{Returns}
+The list of all hexagons that are not filled in on the board. 
+\end{DoxyReturn}
+
+
+Definition at line 52 of file Field\+Graph.\+java.
+
+\mbox{\label{classunitingtwist_1_1_field_graph_ad00bb318775c75318a78b012a28a3cc8}} 
+\index{unitingtwist\+::\+Field\+Graph@{unitingtwist\+::\+Field\+Graph}!put@{put}}
+\index{put@{put}!unitingtwist\+::\+Field\+Graph@{unitingtwist\+::\+Field\+Graph}}
+\subsubsection{put()}
+{\footnotesize\ttfamily void put (\begin{DoxyParamCaption}\item[{\textbf{ Graph\+Game\+Hexagon}}]{hexagon }\end{DoxyParamCaption})}
+
+
+
+Put a new hexagon into the field graph. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hexagon} & The hexagon to place in the graph. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 68 of file Field\+Graph.\+java.
+
+\mbox{\label{classunitingtwist_1_1_field_graph_a523014438b1a8318ec0915c2ce0a3430}} 
+\index{unitingtwist\+::\+Field\+Graph@{unitingtwist\+::\+Field\+Graph}!rotate@{rotate}}
+\index{rotate@{rotate}!unitingtwist\+::\+Field\+Graph@{unitingtwist\+::\+Field\+Graph}}
+\subsubsection{rotate()}
+{\footnotesize\ttfamily void rotate (\begin{DoxyParamCaption}\item[{float}]{angle }\end{DoxyParamCaption})}
+
+
+
+The projection matrix used to rotate points by angles. 
+
+Rotate the entire graph by a given angle, offsetting all the hexagons accordingly. When the device is rotated, the entire graph must be offset to match the new orientation.
+
+
+\begin{DoxyParams}{Parameters}
+{\em angle} & The angle to offset the graph by. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 205 of file Field\+Graph.\+java.
+
+\mbox{\label{classunitingtwist_1_1_field_graph_a3a0b2269c05087f4f0fed09dfe7174d8}} 
+\index{unitingtwist\+::\+Field\+Graph@{unitingtwist\+::\+Field\+Graph}!set\+Game\+Listener@{set\+Game\+Listener}}
+\index{set\+Game\+Listener@{set\+Game\+Listener}!unitingtwist\+::\+Field\+Graph@{unitingtwist\+::\+Field\+Graph}}
+\subsubsection{set\+Game\+Listener()}
+{\footnotesize\ttfamily void set\+Game\+Listener (\begin{DoxyParamCaption}\item[{\textbf{ Game\+Listener}}]{listener }\end{DoxyParamCaption})}
+
+
+
+A helper array storing offsets for adjacent indices around a given hexagon. 
+
+Set the game listener that will receive events when hexagons are matched or the game is lost.
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & The new game listener. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 240 of file Field\+Graph.\+java.
+
+\mbox{\label{classunitingtwist_1_1_field_graph_a4e527a0a39cf1b2888ceaa013cc7e2c1}} 
+\index{unitingtwist\+::\+Field\+Graph@{unitingtwist\+::\+Field\+Graph}!total\+Recount@{total\+Recount}}
+\index{total\+Recount@{total\+Recount}!unitingtwist\+::\+Field\+Graph@{unitingtwist\+::\+Field\+Graph}}
+\subsubsection{total\+Recount()}
+{\footnotesize\ttfamily void total\+Recount (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Recalculate the list of endpoints and opened points in the graph. 
+
+
+
+Definition at line 149 of file Field\+Graph.\+java.
+
+\mbox{\label{classunitingtwist_1_1_field_graph_af039112e754af58b85dd83f6e5b45116}} 
+\index{unitingtwist\+::\+Field\+Graph@{unitingtwist\+::\+Field\+Graph}!update@{update}}
+\index{update@{update}!unitingtwist\+::\+Field\+Graph@{unitingtwist\+::\+Field\+Graph}}
+\subsubsection{update()}
+{\footnotesize\ttfamily void update (\begin{DoxyParamCaption}\item[{long}]{delta\+Time }\end{DoxyParamCaption})}
+
+
+
+Empty update method, as the graph does not get updated on each event loop tick. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em delta\+Time} & The time delta between the previous update. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \textbf{ Drawable} \doxyref{}{p.}{interfaceunitingtwist_1_1_drawable_af039112e754af58b85dd83f6e5b45116}.
+
+
+
+Definition at line 249 of file Field\+Graph.\+java.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\label{classunitingtwist_1_1_field_graph_a102db3d4f349cd02941bda09d430033e}} 
+\index{unitingtwist\+::\+Field\+Graph@{unitingtwist\+::\+Field\+Graph}!S\+C\+A\+LE@{S\+C\+A\+LE}}
+\index{S\+C\+A\+LE@{S\+C\+A\+LE}!unitingtwist\+::\+Field\+Graph@{unitingtwist\+::\+Field\+Graph}}
+\subsubsection{S\+C\+A\+LE}
+{\footnotesize\ttfamily final float S\+C\+A\+LE = 0.\+1f\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Points that do not have a hexagon on them? 
+
+
+
+Definition at line 22 of file Field\+Graph.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/ian/\+Intelli\+J\+I\+D\+E\+A\+Projects/\+Uniting\+Twist/app/src/main/java/ru/litun/unitingtwist/\textbf{ Field\+Graph.\+java}\end{DoxyCompactItemize}

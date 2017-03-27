@@ -1,0 +1,166 @@
+\section{My\+G\+L\+Renderer Class Reference}
+\label{classsf_1_1unitingtwist_1_1_my_g_l_renderer}\index{My\+G\+L\+Renderer@{My\+G\+L\+Renderer}}
+
+
+Created by Litun on 20.\+03.\+2016.  
+
+
+
+
+Inheritance diagram for My\+G\+L\+Renderer\+:
+% FIG 0
+
+
+Collaboration diagram for My\+G\+L\+Renderer\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ My\+G\+L\+Renderer} (\textbf{ Scene} scene)
+\item 
+void \textbf{ on\+Surface\+Created} (G\+L10 unused, E\+G\+L\+Config config)
+\item 
+void \textbf{ on\+Draw\+Frame} (G\+L10 unused)
+\item 
+void \textbf{ on\+Surface\+Changed} (G\+L10 unused, int width, int height)
+\item 
+void \textbf{ set\+Up} (float x, float y)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \textbf{ load\+Shader} (int type, String shader\+Code)
+\begin{DoxyCompactList}\small\item\em Utility method for compiling a Open\+GL shader. \end{DoxyCompactList}\item 
+static void \textbf{ check\+Gl\+Error} (String gl\+Operation)
+\begin{DoxyCompactList}\small\item\em Utility method for debugging Open\+GL calls. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Created by Litun on 20.\+03.\+2016. 
+
+Definition at line 14 of file My\+G\+L\+Renderer.\+java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\label{classsf_1_1unitingtwist_1_1_my_g_l_renderer_a13bfbe333287793306db5a910e3b875f}} 
+\index{sf\+::unitingtwist\+::\+My\+G\+L\+Renderer@{sf\+::unitingtwist\+::\+My\+G\+L\+Renderer}!My\+G\+L\+Renderer@{My\+G\+L\+Renderer}}
+\index{My\+G\+L\+Renderer@{My\+G\+L\+Renderer}!sf\+::unitingtwist\+::\+My\+G\+L\+Renderer@{sf\+::unitingtwist\+::\+My\+G\+L\+Renderer}}
+\subsubsection{My\+G\+L\+Renderer()}
+{\footnotesize\ttfamily \textbf{ My\+G\+L\+Renderer} (\begin{DoxyParamCaption}\item[{\textbf{ Scene}}]{scene }\end{DoxyParamCaption})}
+
+
+
+Definition at line 29 of file My\+G\+L\+Renderer.\+java.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\label{classsf_1_1unitingtwist_1_1_my_g_l_renderer_afc7bb79511afe0d6da9e42e87727e834}} 
+\index{sf\+::unitingtwist\+::\+My\+G\+L\+Renderer@{sf\+::unitingtwist\+::\+My\+G\+L\+Renderer}!check\+Gl\+Error@{check\+Gl\+Error}}
+\index{check\+Gl\+Error@{check\+Gl\+Error}!sf\+::unitingtwist\+::\+My\+G\+L\+Renderer@{sf\+::unitingtwist\+::\+My\+G\+L\+Renderer}}
+\subsubsection{check\+Gl\+Error()}
+{\footnotesize\ttfamily static void check\+Gl\+Error (\begin{DoxyParamCaption}\item[{String}]{gl\+Operation }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Utility method for debugging Open\+GL calls. 
+
+Provide the name of the call just after making it\+: 
+
+
+\begin{DoxyPre}
+mColorHandle = GLES20.glGetUniformLocation(mProgram, "vColor");
+\doxyref{MyGLRenderer.checkGlError}{p.}{classsf_1_1unitingtwist_1_1_my_g_l_renderer_afc7bb79511afe0d6da9e42e87727e834}("glGetUniformLocation");\end{DoxyPre}
+ 
+
+If the operation is not successful, the check throws an error.
+
+
+\begin{DoxyParams}{Parameters}
+{\em gl\+Operation} & -\/ Name of the Open\+GL call to check. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 128 of file My\+G\+L\+Renderer.\+java.
+
+Here is the caller graph for this function\+:
+% FIG 2
+\mbox{\label{classsf_1_1unitingtwist_1_1_my_g_l_renderer_a711436305cb76f8d625468db4d0cb41d}} 
+\index{sf\+::unitingtwist\+::\+My\+G\+L\+Renderer@{sf\+::unitingtwist\+::\+My\+G\+L\+Renderer}!load\+Shader@{load\+Shader}}
+\index{load\+Shader@{load\+Shader}!sf\+::unitingtwist\+::\+My\+G\+L\+Renderer@{sf\+::unitingtwist\+::\+My\+G\+L\+Renderer}}
+\subsubsection{load\+Shader()}
+{\footnotesize\ttfamily static int load\+Shader (\begin{DoxyParamCaption}\item[{int}]{type,  }\item[{String}]{shader\+Code }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Utility method for compiling a Open\+GL shader. 
+
+{\bfseries Note\+:} When developing shaders, use the \doxyref{check\+Gl\+Error()}{p.}{classsf_1_1unitingtwist_1_1_my_g_l_renderer_afc7bb79511afe0d6da9e42e87727e834} method to debug shader coding errors.
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & -\/ Vertex or fragment shader type. \\
+\hline
+{\em shader\+Code} & -\/ String containing the shader code. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/ Returns an id for the shader. 
+\end{DoxyReturn}
+
+
+Definition at line 103 of file My\+G\+L\+Renderer.\+java.
+
+Here is the caller graph for this function\+:
+% FIG 3
+\mbox{\label{classsf_1_1unitingtwist_1_1_my_g_l_renderer_aba4bf3428902adb204d17703e7afcbc9}} 
+\index{sf\+::unitingtwist\+::\+My\+G\+L\+Renderer@{sf\+::unitingtwist\+::\+My\+G\+L\+Renderer}!on\+Draw\+Frame@{on\+Draw\+Frame}}
+\index{on\+Draw\+Frame@{on\+Draw\+Frame}!sf\+::unitingtwist\+::\+My\+G\+L\+Renderer@{sf\+::unitingtwist\+::\+My\+G\+L\+Renderer}}
+\subsubsection{on\+Draw\+Frame()}
+{\footnotesize\ttfamily void on\+Draw\+Frame (\begin{DoxyParamCaption}\item[{G\+L10}]{unused }\end{DoxyParamCaption})}
+
+
+
+Definition at line 44 of file My\+G\+L\+Renderer.\+java.
+
+Here is the call graph for this function\+:
+% FIG 4
+\mbox{\label{classsf_1_1unitingtwist_1_1_my_g_l_renderer_a99a02dc8187c26bdade757e26aec4336}} 
+\index{sf\+::unitingtwist\+::\+My\+G\+L\+Renderer@{sf\+::unitingtwist\+::\+My\+G\+L\+Renderer}!on\+Surface\+Changed@{on\+Surface\+Changed}}
+\index{on\+Surface\+Changed@{on\+Surface\+Changed}!sf\+::unitingtwist\+::\+My\+G\+L\+Renderer@{sf\+::unitingtwist\+::\+My\+G\+L\+Renderer}}
+\subsubsection{on\+Surface\+Changed()}
+{\footnotesize\ttfamily void on\+Surface\+Changed (\begin{DoxyParamCaption}\item[{G\+L10}]{unused,  }\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+
+
+Definition at line 73 of file My\+G\+L\+Renderer.\+java.
+
+\mbox{\label{classsf_1_1unitingtwist_1_1_my_g_l_renderer_a6843354e3fe7377a3a73cb4b063ffa8f}} 
+\index{sf\+::unitingtwist\+::\+My\+G\+L\+Renderer@{sf\+::unitingtwist\+::\+My\+G\+L\+Renderer}!on\+Surface\+Created@{on\+Surface\+Created}}
+\index{on\+Surface\+Created@{on\+Surface\+Created}!sf\+::unitingtwist\+::\+My\+G\+L\+Renderer@{sf\+::unitingtwist\+::\+My\+G\+L\+Renderer}}
+\subsubsection{on\+Surface\+Created()}
+{\footnotesize\ttfamily void on\+Surface\+Created (\begin{DoxyParamCaption}\item[{G\+L10}]{unused,  }\item[{E\+G\+L\+Config}]{config }\end{DoxyParamCaption})}
+
+
+
+Definition at line 34 of file My\+G\+L\+Renderer.\+java.
+
+Here is the call graph for this function\+:
+% FIG 5
+\mbox{\label{classsf_1_1unitingtwist_1_1_my_g_l_renderer_a2e4912428e9969f71dff31060f2debf5}} 
+\index{sf\+::unitingtwist\+::\+My\+G\+L\+Renderer@{sf\+::unitingtwist\+::\+My\+G\+L\+Renderer}!set\+Up@{set\+Up}}
+\index{set\+Up@{set\+Up}!sf\+::unitingtwist\+::\+My\+G\+L\+Renderer@{sf\+::unitingtwist\+::\+My\+G\+L\+Renderer}}
+\subsubsection{set\+Up()}
+{\footnotesize\ttfamily void set\+Up (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y }\end{DoxyParamCaption})}
+
+
+
+Definition at line 85 of file My\+G\+L\+Renderer.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/ian/\+Intelli\+J\+I\+D\+E\+A\+Projects/\+Uniting\+Twist/app/src/main/java/ru/litun/unitingtwist/\textbf{ My\+G\+L\+Renderer.\+java}\end{DoxyCompactItemize}

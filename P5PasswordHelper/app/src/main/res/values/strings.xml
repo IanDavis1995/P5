@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">P5PasswordHelper</string>
+    <string name="check_password_button">Check Password</string>
+    <string name="password_label">Password:</string>
+</resources>

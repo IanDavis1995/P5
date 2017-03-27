@@ -1,0 +1,140 @@
+\section{Engine Class Reference}
+\label{classunitingtwist_1_1_engine}\index{Engine@{Engine}}
+
+
+The main game engine that handles the event loop to render hexagons.  
+
+
+
+
+Collaboration diagram for Engine\+:
+% FIG 0
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Loop\+Thread}
+\begin{DoxyCompactList}\small\item\em Handle events processed in the event loop. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Engine} (@Non\+Null \textbf{ Scene} scene, @Non\+Null G\+L\+Surface\+View surface)
+\begin{DoxyCompactList}\small\item\em Create a new engine that operates on the given \doxyref{Scene}{p.}{classunitingtwist_1_1_scene} and G\+L\+Surface\+View. \end{DoxyCompactList}\item 
+void \textbf{ create} ()
+\begin{DoxyCompactList}\small\item\em Instantiate our event loop thread and start it. \end{DoxyCompactList}\item 
+void \textbf{ resume} ()
+\begin{DoxyCompactList}\small\item\em Flag our event loop thread to continue running and resume the \doxyref{Scene}{p.}{classunitingtwist_1_1_scene}. \end{DoxyCompactList}\item 
+void \textbf{ pause} ()
+\begin{DoxyCompactList}\small\item\em Flag our event loop thread to pause running, and pause the \doxyref{Scene}{p.}{classunitingtwist_1_1_scene}. \end{DoxyCompactList}\item 
+void \textbf{ destroy} ()
+\begin{DoxyCompactList}\small\item\em Interrupt and stop our event loop thread, and remove its instance. \end{DoxyCompactList}\item 
+void \textbf{ force\+Update} ()
+\begin{DoxyCompactList}\small\item\em Force an update and tell our event loop thread to skip one iteration. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The main game engine that handles the event loop to render hexagons. 
+
+Definition at line 12 of file Engine.\+java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\label{classunitingtwist_1_1_engine_aeec39154ee36ea97df26b53276e8d905}} 
+\index{unitingtwist\+::\+Engine@{unitingtwist\+::\+Engine}!Engine@{Engine}}
+\index{Engine@{Engine}!unitingtwist\+::\+Engine@{unitingtwist\+::\+Engine}}
+\subsubsection{Engine()}
+{\footnotesize\ttfamily \textbf{ Engine} (\begin{DoxyParamCaption}\item[{@Non\+Null \textbf{ Scene}}]{scene,  }\item[{@Non\+Null G\+L\+Surface\+View}]{surface }\end{DoxyParamCaption})}
+
+
+
+Create a new engine that operates on the given \doxyref{Scene}{p.}{classunitingtwist_1_1_scene} and G\+L\+Surface\+View. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scene} & The \doxyref{Scene}{p.}{classunitingtwist_1_1_scene} object to update in our event loop. \\
+\hline
+{\em surface} & The G\+L\+Surface\+View to update in our event loop. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 101 of file Engine.\+java.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\label{classunitingtwist_1_1_engine_ae2ee59f7cc16ee42559c87e81c433039}} 
+\index{unitingtwist\+::\+Engine@{unitingtwist\+::\+Engine}!create@{create}}
+\index{create@{create}!unitingtwist\+::\+Engine@{unitingtwist\+::\+Engine}}
+\subsubsection{create()}
+{\footnotesize\ttfamily void create (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Instantiate our event loop thread and start it. 
+
+
+
+Definition at line 108 of file Engine.\+java.
+
+\mbox{\label{classunitingtwist_1_1_engine_a3a80b6032f86a56bec74609034b3246f}} 
+\index{unitingtwist\+::\+Engine@{unitingtwist\+::\+Engine}!destroy@{destroy}}
+\index{destroy@{destroy}!unitingtwist\+::\+Engine@{unitingtwist\+::\+Engine}}
+\subsubsection{destroy()}
+{\footnotesize\ttfamily void destroy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Interrupt and stop our event loop thread, and remove its instance. 
+
+
+
+Definition at line 131 of file Engine.\+java.
+
+\mbox{\label{classunitingtwist_1_1_engine_a9b17fb9e1ca3c4f937cddc62c84770c2}} 
+\index{unitingtwist\+::\+Engine@{unitingtwist\+::\+Engine}!force\+Update@{force\+Update}}
+\index{force\+Update@{force\+Update}!unitingtwist\+::\+Engine@{unitingtwist\+::\+Engine}}
+\subsubsection{force\+Update()}
+{\footnotesize\ttfamily void force\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Force an update and tell our event loop thread to skip one iteration. 
+
+See\+: Engine.\+update 
+
+Definition at line 140 of file Engine.\+java.
+
+\mbox{\label{classunitingtwist_1_1_engine_a7167f5c196fc5e167bfabde1a730e81d}} 
+\index{unitingtwist\+::\+Engine@{unitingtwist\+::\+Engine}!pause@{pause}}
+\index{pause@{pause}!unitingtwist\+::\+Engine@{unitingtwist\+::\+Engine}}
+\subsubsection{pause()}
+{\footnotesize\ttfamily void pause (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Flag our event loop thread to pause running, and pause the \doxyref{Scene}{p.}{classunitingtwist_1_1_scene}. 
+
+
+
+Definition at line 123 of file Engine.\+java.
+
+\mbox{\label{classunitingtwist_1_1_engine_a41de8150eff044a237990c271d57ea27}} 
+\index{unitingtwist\+::\+Engine@{unitingtwist\+::\+Engine}!resume@{resume}}
+\index{resume@{resume}!unitingtwist\+::\+Engine@{unitingtwist\+::\+Engine}}
+\subsubsection{resume()}
+{\footnotesize\ttfamily void resume (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Flag our event loop thread to continue running and resume the \doxyref{Scene}{p.}{classunitingtwist_1_1_scene}. 
+
+
+
+Definition at line 115 of file Engine.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/ian/\+Intelli\+J\+I\+D\+E\+A\+Projects/\+Uniting\+Twist/app/src/main/java/ru/litun/unitingtwist/\textbf{ Engine.\+java}\end{DoxyCompactItemize}

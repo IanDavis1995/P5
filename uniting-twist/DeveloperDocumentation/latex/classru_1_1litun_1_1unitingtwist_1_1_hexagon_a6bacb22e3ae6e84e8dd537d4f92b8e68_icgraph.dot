@@ -1,0 +1,9 @@
+digraph "init"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node27 [label="init",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node27 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node28 [label="ru.litun.unitingtwist.My\lGLRenderer.onSurfaceCreated",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_my_g_l_renderer.html#a6843354e3fe7377a3a73cb4b063ffa8f"];
+}

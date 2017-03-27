@@ -1,0 +1,117 @@
+\section{Color\+Utils Class Reference}
+\label{classunitingtwist_1_1_color_utils}\index{Color\+Utils@{Color\+Utils}}
+
+
+Utility class with a library of basic color definitions for Open\+GL shading.  
+
+
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \textbf{ init} (Context context)
+\begin{DoxyCompactList}\small\item\em An array of the predefined colors accessible in this class. \end{DoxyCompactList}\item 
+static float [$\,$] \textbf{ get\+Color} (int n)
+\begin{DoxyCompactList}\small\item\em Get the nth color from the populated colors array. \end{DoxyCompactList}\item 
+static int \textbf{ colors\+Count} ()
+\begin{DoxyCompactList}\small\item\em Return the number of colors in the colors array. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Utility class with a library of basic color definitions for Open\+GL shading. 
+
+This class creates the following predefined colors\+: \begin{DoxyVerb} greyColor (Grey)
+
+ redColor (Red)
+
+ yellowColor (Yellow)
+
+ blueColor (Blue)
+
+ oceanColor (Ocean)
+
+ greenColor (Green)
+\end{DoxyVerb}
+
+
+They are accessed using the \doxyref{Color\+Utils.\+get\+Color}{p.}{classunitingtwist_1_1_color_utils_aa3a7d7ee785a482b0ff389374266933a} function. 
+
+Definition at line 24 of file Color\+Utils.\+java.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\label{classunitingtwist_1_1_color_utils_ac3c1b83de2ac679481c2a1f30e47779e}} 
+\index{unitingtwist\+::\+Color\+Utils@{unitingtwist\+::\+Color\+Utils}!colors\+Count@{colors\+Count}}
+\index{colors\+Count@{colors\+Count}!unitingtwist\+::\+Color\+Utils@{unitingtwist\+::\+Color\+Utils}}
+\subsubsection{colors\+Count()}
+{\footnotesize\ttfamily static int colors\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Return the number of colors in the colors array. 
+
+\begin{DoxyReturn}{Returns}
+The number of colors in the colors array. 
+\end{DoxyReturn}
+
+
+Definition at line 103 of file Color\+Utils.\+java.
+
+\mbox{\label{classunitingtwist_1_1_color_utils_aa3a7d7ee785a482b0ff389374266933a}} 
+\index{unitingtwist\+::\+Color\+Utils@{unitingtwist\+::\+Color\+Utils}!get\+Color@{get\+Color}}
+\index{get\+Color@{get\+Color}!unitingtwist\+::\+Color\+Utils@{unitingtwist\+::\+Color\+Utils}}
+\subsubsection{get\+Color()}
+{\footnotesize\ttfamily static float [$\,$] get\+Color (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Get the nth color from the populated colors array. 
+
+Indexes in the array are mapped as follows\+: \begin{DoxyVerb}0 - grey
+
+1 - red
+
+2 - yellow
+
+3 - blue
+
+4 - ocean
+
+5 - green
+\end{DoxyVerb}
+ 
+\begin{DoxyParams}{Parameters}
+{\em n} & The index in the colors array to access. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The array of color data for the index given. 
+\end{DoxyReturn}
+
+
+Definition at line 95 of file Color\+Utils.\+java.
+
+\mbox{\label{classunitingtwist_1_1_color_utils_ad564b38011fb56e37ce0ae341781184d}} 
+\index{unitingtwist\+::\+Color\+Utils@{unitingtwist\+::\+Color\+Utils}!init@{init}}
+\index{init@{init}!unitingtwist\+::\+Color\+Utils@{unitingtwist\+::\+Color\+Utils}}
+\subsubsection{init()}
+{\footnotesize\ttfamily static void init (\begin{DoxyParamCaption}\item[{Context}]{context }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+An array of the predefined colors accessible in this class. 
+
+Create our collection of predefined colors. This uses the given context and gets colors defined by android resource helpers. The colors are placed into the colors array which is referenced in the \doxyref{Color\+Utils.\+get\+Color}{p.}{classunitingtwist_1_1_color_utils_aa3a7d7ee785a482b0ff389374266933a} function. See\+: Context\+Compat.\+get\+Color 
+\begin{DoxyParams}{Parameters}
+{\em context} & The current context of the android application. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 41 of file Color\+Utils.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/ian/\+Intelli\+J\+I\+D\+E\+A\+Projects/\+Uniting\+Twist/app/src/main/java/ru/litun/unitingtwist/\textbf{ Color\+Utils.\+java}\end{DoxyCompactItemize}

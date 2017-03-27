@@ -1,0 +1,9 @@
+digraph "update"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5 [label="update",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="unitingtwist.GameHexagon.move",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classunitingtwist_1_1_game_hexagon.html#a206c19ef82ed8ac5ea84810ff997de2c"];
+}

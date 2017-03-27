@@ -1,0 +1,13 @@
+digraph "ru.litun.unitingtwist.FieldGraph.getEndpoints"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node24 [label="ru.litun.unitingtwist.Field\lGraph.getEndpoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node24 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node25 [label="ru.litun.unitingtwist.Game\lField.stopGenerating",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_game_field.html#a485fed7a58845fdc64dbb9e8271737e0"];
+  Node25 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node26 [label="ru.litun.unitingtwist.Scene.draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_scene.html#aba4b9040b80f63cb0c57ea8bd78f8533"];
+  Node26 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node27 [label="ru.litun.unitingtwist.My\lGLRenderer.onDrawFrame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_my_g_l_renderer.html#ad30d224496c46169725b82eec69025f1"];
+}

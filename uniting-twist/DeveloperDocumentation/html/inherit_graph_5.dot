@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="GameListener",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfaceunitingtwist_1_1_game_listener.html",tooltip="Interface for an object that listens for scoring/losing events about the game. "];
+}

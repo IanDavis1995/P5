@@ -1,0 +1,15 @@
+digraph "ru.litun.unitingtwist.GameHexagon.move"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node32 [label="ru.litun.unitingtwist.Game\lHexagon.move",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node32 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="ru.litun.unitingtwist.Flying\lGameHexagon.update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_flying_game_hexagon.html#a94a6c6571189f583610fe8c7b9616063"];
+  Node33 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="ru.litun.unitingtwist.Game\lField.update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_game_field.html#afa97fdcee7dfa171110ac6b5044dd273"];
+  Node34 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 [label="ru.litun.unitingtwist.Scene.draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_scene.html#aba4b9040b80f63cb0c57ea8bd78f8533"];
+  Node35 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node36 [label="ru.litun.unitingtwist.My\lGLRenderer.onDrawFrame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_my_g_l_renderer.html#ad30d224496c46169725b82eec69025f1"];
+}

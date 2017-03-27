@@ -1,0 +1,11 @@
+digraph "ru.litun.unitingtwist.GameHexagon.setAngle"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node45 [label="ru.litun.unitingtwist.Game\lHexagon.setAngle",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node45 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node46 [label="ru.litun.unitingtwist.Field\lGraph.rotate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_field_graph.html#aa5f61cff2043d82d4aa795fa28ec9c82"];
+  Node46 -> Node47 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node47 [label="ru.litun.unitingtwist.Game\lField.newUp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_game_field.html#a365fe2410385ab45261f3c7fe95334ef"];
+}

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "410641655917",
+    "firebase_url": "https://ceg3900-xkcd-tagger.firebaseio.com",
+    "project_id": "ceg3900-xkcd-tagger",
+    "storage_bucket": "ceg3900-xkcd-tagger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410641655917:android:17ffc5a598d77950",
+        "android_client_info": {
+          "package_name": "de.tap.easy_xkcd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410641655917-fiaa2d3m2ejgus58gu6buqcnq6n5q9ac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9Si1zmz09ITMoiGwZpfQlReQgQpjv5kE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

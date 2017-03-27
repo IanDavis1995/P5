@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ColorUtils",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classunitingtwist_1_1_color_utils.html",tooltip="Utility class with a library of basic color definitions for OpenGL shading. "];
+}

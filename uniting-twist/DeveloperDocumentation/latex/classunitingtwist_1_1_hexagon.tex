@@ -1,0 +1,195 @@
+\section{Hexagon Class Reference}
+\label{classunitingtwist_1_1_hexagon}\index{Hexagon@{Hexagon}}
+
+
+Represent a basic Open\+GL drawable hexagon.  
+
+
+
+
+Collaboration diagram for Hexagon\+:
+% FIG 0
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Hexagon} ()
+\begin{DoxyCompactList}\small\item\em Sets up the drawing object data for use in an Open\+GL ES context. \end{DoxyCompactList}\item 
+void \textbf{ init\+Vertex\+Buffer} ()
+\begin{DoxyCompactList}\small\item\em Initialize our vertex buffer with the hexagon vertex data. \end{DoxyCompactList}\item 
+void \textbf{ draw} (float[$\,$] mvp\+Matrix)
+\begin{DoxyCompactList}\small\item\em Same deal. \end{DoxyCompactList}\item 
+void \textbf{ translate} (float x, float y)
+\begin{DoxyCompactList}\small\item\em Translate this hexagon to a new position on the screen. \end{DoxyCompactList}\item 
+void \textbf{ rotate} (float angle)
+\begin{DoxyCompactList}\small\item\em Rotate this hexagon a certain angle. \end{DoxyCompactList}\item 
+void \textbf{ set\+Color} (int color\+Ind)
+\begin{DoxyCompactList}\small\item\em Set the color of this hexagon (taken from \doxyref{Color\+Utils.\+get\+Color}{p.}{classunitingtwist_1_1_color_utils_aa3a7d7ee785a482b0ff389374266933a}). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \textbf{ Hexagon} \textbf{ init} ()
+\begin{DoxyCompactList}\small\item\em A static instance of a \doxyref{Hexagon}{p.}{classunitingtwist_1_1_hexagon} object. \end{DoxyCompactList}\item 
+static \textbf{ Hexagon} \textbf{ get\+Instance} ()
+\begin{DoxyCompactList}\small\item\em Get our static \doxyref{Hexagon}{p.}{classunitingtwist_1_1_hexagon} object instance. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Represent a basic Open\+GL drawable hexagon. 
+
+Definition at line 15 of file Hexagon.\+java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\label{classunitingtwist_1_1_hexagon_aadc1f20d3bb3b975b0e03c519a7f8917}} 
+\index{unitingtwist\+::\+Hexagon@{unitingtwist\+::\+Hexagon}!Hexagon@{Hexagon}}
+\index{Hexagon@{Hexagon}!unitingtwist\+::\+Hexagon@{unitingtwist\+::\+Hexagon}}
+\subsubsection{Hexagon()}
+{\footnotesize\ttfamily \textbf{ Hexagon} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Sets up the drawing object data for use in an Open\+GL ES context. 
+
+
+
+Definition at line 89 of file Hexagon.\+java.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\label{classunitingtwist_1_1_hexagon_ace8a0d2a4e41b6d83897d48fd91a7ab3}} 
+\index{unitingtwist\+::\+Hexagon@{unitingtwist\+::\+Hexagon}!draw@{draw}}
+\index{draw@{draw}!unitingtwist\+::\+Hexagon@{unitingtwist\+::\+Hexagon}}
+\subsubsection{draw()}
+{\footnotesize\ttfamily void draw (\begin{DoxyParamCaption}\item[{float [$\,$]}]{mvp\+Matrix }\end{DoxyParamCaption})}
+
+
+
+Same deal. 
+
+Encapsulates the Open\+GL ES instructions for drawing this shape.
+
+
+\begin{DoxyParams}{Parameters}
+{\em mvp\+Matrix} & -\/ The Model View Project matrix in which to draw this shape. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 139 of file Hexagon.\+java.
+
+\mbox{\label{classunitingtwist_1_1_hexagon_a0428295cb76ddb8aaa39007c6e98a294}} 
+\index{unitingtwist\+::\+Hexagon@{unitingtwist\+::\+Hexagon}!get\+Instance@{get\+Instance}}
+\index{get\+Instance@{get\+Instance}!unitingtwist\+::\+Hexagon@{unitingtwist\+::\+Hexagon}}
+\subsubsection{get\+Instance()}
+{\footnotesize\ttfamily static \textbf{ Hexagon} get\+Instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Get our static \doxyref{Hexagon}{p.}{classunitingtwist_1_1_hexagon} object instance. 
+
+\begin{DoxyReturn}{Returns}
+The static instance. 
+\end{DoxyReturn}
+
+
+Definition at line 32 of file Hexagon.\+java.
+
+\mbox{\label{classunitingtwist_1_1_hexagon_a6bacb22e3ae6e84e8dd537d4f92b8e68}} 
+\index{unitingtwist\+::\+Hexagon@{unitingtwist\+::\+Hexagon}!init@{init}}
+\index{init@{init}!unitingtwist\+::\+Hexagon@{unitingtwist\+::\+Hexagon}}
+\subsubsection{init()}
+{\footnotesize\ttfamily static \textbf{ Hexagon} init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+A static instance of a \doxyref{Hexagon}{p.}{classunitingtwist_1_1_hexagon} object. 
+
+Create the static instance of the \doxyref{Hexagon}{p.}{classunitingtwist_1_1_hexagon} class.
+
+\begin{DoxyReturn}{Returns}
+The new instance. 
+\end{DoxyReturn}
+
+
+Definition at line 23 of file Hexagon.\+java.
+
+\mbox{\label{classunitingtwist_1_1_hexagon_a5061e0bcf0ce4e87bfae8db5d387b2ea}} 
+\index{unitingtwist\+::\+Hexagon@{unitingtwist\+::\+Hexagon}!init\+Vertex\+Buffer@{init\+Vertex\+Buffer}}
+\index{init\+Vertex\+Buffer@{init\+Vertex\+Buffer}!unitingtwist\+::\+Hexagon@{unitingtwist\+::\+Hexagon}}
+\subsubsection{init\+Vertex\+Buffer()}
+{\footnotesize\ttfamily void init\+Vertex\+Buffer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initialize our vertex buffer with the hexagon vertex data. 
+
+
+
+Definition at line 122 of file Hexagon.\+java.
+
+\mbox{\label{classunitingtwist_1_1_hexagon_a523014438b1a8318ec0915c2ce0a3430}} 
+\index{unitingtwist\+::\+Hexagon@{unitingtwist\+::\+Hexagon}!rotate@{rotate}}
+\index{rotate@{rotate}!unitingtwist\+::\+Hexagon@{unitingtwist\+::\+Hexagon}}
+\subsubsection{rotate()}
+{\footnotesize\ttfamily void rotate (\begin{DoxyParamCaption}\item[{float}]{angle }\end{DoxyParamCaption})}
+
+
+
+Rotate this hexagon a certain angle. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em angle} & The angle to rotate. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 221 of file Hexagon.\+java.
+
+\mbox{\label{classunitingtwist_1_1_hexagon_a1cc9d5666b1d32b3e35f88192b3b4d3f}} 
+\index{unitingtwist\+::\+Hexagon@{unitingtwist\+::\+Hexagon}!set\+Color@{set\+Color}}
+\index{set\+Color@{set\+Color}!unitingtwist\+::\+Hexagon@{unitingtwist\+::\+Hexagon}}
+\subsubsection{set\+Color()}
+{\footnotesize\ttfamily void set\+Color (\begin{DoxyParamCaption}\item[{int}]{color\+Ind }\end{DoxyParamCaption})}
+
+
+
+Set the color of this hexagon (taken from \doxyref{Color\+Utils.\+get\+Color}{p.}{classunitingtwist_1_1_color_utils_aa3a7d7ee785a482b0ff389374266933a}). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em color\+Ind} & The index of the color to set. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 229 of file Hexagon.\+java.
+
+\mbox{\label{classunitingtwist_1_1_hexagon_aaf32fd3f86bbef7279898dd958c847cd}} 
+\index{unitingtwist\+::\+Hexagon@{unitingtwist\+::\+Hexagon}!translate@{translate}}
+\index{translate@{translate}!unitingtwist\+::\+Hexagon@{unitingtwist\+::\+Hexagon}}
+\subsubsection{translate()}
+{\footnotesize\ttfamily void translate (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y }\end{DoxyParamCaption})}
+
+
+
+Translate this hexagon to a new position on the screen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & The new x coordinate. \\
+\hline
+{\em y} & The new y coordinate. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 212 of file Hexagon.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/ian/\+Intelli\+J\+I\+D\+E\+A\+Projects/\+Uniting\+Twist/app/src/main/java/ru/litun/unitingtwist/\textbf{ Hexagon.\+java}\end{DoxyCompactItemize}

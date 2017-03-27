@@ -1,0 +1,15 @@
+digraph "ru.litun.unitingtwist.FieldGraph.totalRecount"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node61 [label="ru.litun.unitingtwist.Field\lGraph.totalRecount",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node61 -> Node62 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node62 [label="ru.litun.unitingtwist.Graph\lGameHexagon.isVisited",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_graph_game_hexagon.html#a25be4a688521fa0dacb3efc18d58f443"];
+  Node61 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node63 [label="ru.litun.unitingtwist.Graph\lGameHexagon.setVisited",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_graph_game_hexagon.html#a3647c94fdd8c6f215d9907d99ef2f692"];
+  Node61 -> Node64 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node64 [label="ru.litun.unitingtwist.Graph\lGameHexagon.hasHexagon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_graph_game_hexagon.html#a30ce455d1126188cee5d980526f7c0b4"];
+  Node64 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node65 [label="ru.litun.unitingtwist.Game\lHexagonContainer.getHexagon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classru_1_1litun_1_1unitingtwist_1_1_game_hexagon_container.html#ad02748b35ee83501d3e757c71965040c"];
+}

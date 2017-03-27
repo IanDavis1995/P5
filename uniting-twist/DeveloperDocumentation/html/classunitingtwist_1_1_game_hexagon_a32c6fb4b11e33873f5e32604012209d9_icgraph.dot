@@ -1,0 +1,11 @@
+digraph "setAngle"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node45 [label="setAngle",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node45 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 [label="unitingtwist.FieldGraph.rotate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classunitingtwist_1_1_field_graph.html#a523014438b1a8318ec0915c2ce0a3430",tooltip="The projection matrix used to rotate points by angles. "];
+  Node46 -> Node47 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node47 [label="unitingtwist.GameField.newUp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classunitingtwist_1_1_game_field.html#ab34cc8f938ea1126a03a701bd6e155a1"];
+}

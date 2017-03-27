@@ -1,0 +1,164 @@
+\section{Game\+Hexagon\+Container Class Reference}
+\label{classunitingtwist_1_1_game_hexagon_container}\index{Game\+Hexagon\+Container@{Game\+Hexagon\+Container}}
+
+
+A Hexagon\+Container is a wrapper around Game\+Hexagons that apply special behavior to them.  
+
+
+
+
+Inheritance diagram for Game\+Hexagon\+Container\+:
+% FIG 0
+
+
+Collaboration diagram for Game\+Hexagon\+Container\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Game\+Hexagon} \textbf{ get\+Hexagon} ()
+\begin{DoxyCompactList}\small\item\em Our internal \doxyref{Game\+Hexagon}{p.}{classunitingtwist_1_1_game_hexagon} object. \end{DoxyCompactList}\item 
+void \textbf{ set\+Hexagon} (\textbf{ Game\+Hexagon} \textbf{ hexagon})
+\begin{DoxyCompactList}\small\item\em Update our actual \doxyref{Game\+Hexagon}{p.}{classunitingtwist_1_1_game_hexagon} object. \end{DoxyCompactList}\item 
+Point \textbf{ get\+Point} ()
+\begin{DoxyCompactList}\small\item\em Get the position of our \doxyref{Game\+Hexagon}{p.}{classunitingtwist_1_1_game_hexagon}. \end{DoxyCompactList}\item 
+void \textbf{ update} (long delta\+Time)
+\begin{DoxyCompactList}\small\item\em Do nothing here, as this should be implemented by subclasses. \end{DoxyCompactList}\item 
+void \textbf{ draw} (float[$\,$] mvp\+Matrix)
+\begin{DoxyCompactList}\small\item\em Draw our \doxyref{Game\+Hexagon}{p.}{classunitingtwist_1_1_game_hexagon}, if we have one, applying the projection matrix given. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Game\+Hexagon} \textbf{ hexagon}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A Hexagon\+Container is a wrapper around Game\+Hexagons that apply special behavior to them. 
+
+Flying\+Game\+Hexagons an Graph\+Game\+Hexagons are both implemented as Hexagon\+Containers. 
+
+Definition at line 6 of file Game\+Hexagon\+Container.\+java.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\label{classunitingtwist_1_1_game_hexagon_container_ace8a0d2a4e41b6d83897d48fd91a7ab3}} 
+\index{unitingtwist\+::\+Game\+Hexagon\+Container@{unitingtwist\+::\+Game\+Hexagon\+Container}!draw@{draw}}
+\index{draw@{draw}!unitingtwist\+::\+Game\+Hexagon\+Container@{unitingtwist\+::\+Game\+Hexagon\+Container}}
+\subsubsection{draw()}
+{\footnotesize\ttfamily void draw (\begin{DoxyParamCaption}\item[{float [$\,$]}]{mvp\+Matrix }\end{DoxyParamCaption})}
+
+
+
+Draw our \doxyref{Game\+Hexagon}{p.}{classunitingtwist_1_1_game_hexagon}, if we have one, applying the projection matrix given. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mvp\+Matrix} & A projection matrix to apply to the drawing. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \textbf{ Drawable} \doxyref{}{p.}{interfaceunitingtwist_1_1_drawable_ace8a0d2a4e41b6d83897d48fd91a7ab3}.
+
+
+
+Definition at line 47 of file Game\+Hexagon\+Container.\+java.
+
+\mbox{\label{classunitingtwist_1_1_game_hexagon_container_a27b622ba75ab99568513b95d4a5c1bd1}} 
+\index{unitingtwist\+::\+Game\+Hexagon\+Container@{unitingtwist\+::\+Game\+Hexagon\+Container}!get\+Hexagon@{get\+Hexagon}}
+\index{get\+Hexagon@{get\+Hexagon}!unitingtwist\+::\+Game\+Hexagon\+Container@{unitingtwist\+::\+Game\+Hexagon\+Container}}
+\subsubsection{get\+Hexagon()}
+{\footnotesize\ttfamily \textbf{ Game\+Hexagon} get\+Hexagon (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Our internal \doxyref{Game\+Hexagon}{p.}{classunitingtwist_1_1_game_hexagon} object. 
+
+Get our actual \doxyref{Game\+Hexagon}{p.}{classunitingtwist_1_1_game_hexagon} object.
+
+\begin{DoxyReturn}{Returns}
+The actual \doxyref{Game\+Hexagon}{p.}{classunitingtwist_1_1_game_hexagon}. 
+\end{DoxyReturn}
+
+
+Definition at line 13 of file Game\+Hexagon\+Container.\+java.
+
+\mbox{\label{classunitingtwist_1_1_game_hexagon_container_ab83bca143bb78bf22c57d15fdeeb91b3}} 
+\index{unitingtwist\+::\+Game\+Hexagon\+Container@{unitingtwist\+::\+Game\+Hexagon\+Container}!get\+Point@{get\+Point}}
+\index{get\+Point@{get\+Point}!unitingtwist\+::\+Game\+Hexagon\+Container@{unitingtwist\+::\+Game\+Hexagon\+Container}}
+\subsubsection{get\+Point()}
+{\footnotesize\ttfamily Point get\+Point (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the position of our \doxyref{Game\+Hexagon}{p.}{classunitingtwist_1_1_game_hexagon}. 
+
+\begin{DoxyReturn}{Returns}
+The position of our \doxyref{Game\+Hexagon}{p.}{classunitingtwist_1_1_game_hexagon}. 
+\end{DoxyReturn}
+
+
+Definition at line 29 of file Game\+Hexagon\+Container.\+java.
+
+\mbox{\label{classunitingtwist_1_1_game_hexagon_container_a31b3633d1829f9a2ffd0082a2061a1c5}} 
+\index{unitingtwist\+::\+Game\+Hexagon\+Container@{unitingtwist\+::\+Game\+Hexagon\+Container}!set\+Hexagon@{set\+Hexagon}}
+\index{set\+Hexagon@{set\+Hexagon}!unitingtwist\+::\+Game\+Hexagon\+Container@{unitingtwist\+::\+Game\+Hexagon\+Container}}
+\subsubsection{set\+Hexagon()}
+{\footnotesize\ttfamily void set\+Hexagon (\begin{DoxyParamCaption}\item[{\textbf{ Game\+Hexagon}}]{hexagon }\end{DoxyParamCaption})}
+
+
+
+Update our actual \doxyref{Game\+Hexagon}{p.}{classunitingtwist_1_1_game_hexagon} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hexagon} & The new \doxyref{Game\+Hexagon}{p.}{classunitingtwist_1_1_game_hexagon} object. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 21 of file Game\+Hexagon\+Container.\+java.
+
+\mbox{\label{classunitingtwist_1_1_game_hexagon_container_af039112e754af58b85dd83f6e5b45116}} 
+\index{unitingtwist\+::\+Game\+Hexagon\+Container@{unitingtwist\+::\+Game\+Hexagon\+Container}!update@{update}}
+\index{update@{update}!unitingtwist\+::\+Game\+Hexagon\+Container@{unitingtwist\+::\+Game\+Hexagon\+Container}}
+\subsubsection{update()}
+{\footnotesize\ttfamily void update (\begin{DoxyParamCaption}\item[{long}]{delta\+Time }\end{DoxyParamCaption})}
+
+
+
+Do nothing here, as this should be implemented by subclasses. 
+
+Exists to support the interface of \doxyref{Drawable}{p.}{interfaceunitingtwist_1_1_drawable}. 
+\begin{DoxyParams}{Parameters}
+{\em delta\+Time} & The time delta between the previous update. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \textbf{ Drawable} \doxyref{}{p.}{interfaceunitingtwist_1_1_drawable_af039112e754af58b85dd83f6e5b45116}.
+
+
+
+Definition at line 38 of file Game\+Hexagon\+Container.\+java.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\label{classunitingtwist_1_1_game_hexagon_container_a64743bcd3c43695d46639bdc0cb4433f}} 
+\index{unitingtwist\+::\+Game\+Hexagon\+Container@{unitingtwist\+::\+Game\+Hexagon\+Container}!hexagon@{hexagon}}
+\index{hexagon@{hexagon}!unitingtwist\+::\+Game\+Hexagon\+Container@{unitingtwist\+::\+Game\+Hexagon\+Container}}
+\subsubsection{hexagon}
+{\footnotesize\ttfamily \textbf{ Game\+Hexagon} hexagon\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 7 of file Game\+Hexagon\+Container.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/ian/\+Intelli\+J\+I\+D\+E\+A\+Projects/\+Uniting\+Twist/app/src/main/java/ru/litun/unitingtwist/\textbf{ Game\+Hexagon\+Container.\+java}\end{DoxyCompactItemize}

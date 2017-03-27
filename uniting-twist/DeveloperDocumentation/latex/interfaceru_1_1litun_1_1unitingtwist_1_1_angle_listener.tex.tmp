@@ -1,0 +1,48 @@
+\section{Angle\+Listener Interface Reference}
+\label{interfaceru_1_1litun_1_1unitingtwist_1_1_angle_listener}\index{Angle\+Listener@{Angle\+Listener}}
+
+
+Interface for an object that listens for changes in the rotation of the device.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \textbf{ set\+Up} (float x, float y)
+\begin{DoxyCompactList}\small\item\em Handle a change in the rotation of the device. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Interface for an object that listens for changes in the rotation of the device. 
+
+Created by Litun on 20.\+03.\+2016. 
+
+Definition at line 6 of file Angle\+Listener.\+java.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\label{interfaceru_1_1litun_1_1unitingtwist_1_1_angle_listener_a2e4912428e9969f71dff31060f2debf5}} 
+\index{ru\+::litun\+::unitingtwist\+::\+Angle\+Listener@{ru\+::litun\+::unitingtwist\+::\+Angle\+Listener}!set\+Up@{set\+Up}}
+\index{set\+Up@{set\+Up}!ru\+::litun\+::unitingtwist\+::\+Angle\+Listener@{ru\+::litun\+::unitingtwist\+::\+Angle\+Listener}}
+\subsubsection{set\+Up()}
+{\footnotesize\ttfamily void set\+Up (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y }\end{DoxyParamCaption})}
+
+
+
+Handle a change in the rotation of the device. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & The x coordinate of the gyroscope. \\
+\hline
+{\em y} & The y coordinate of the gyroscope. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 0
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/ian/\+Intelli\+J\+I\+D\+E\+A\+Projects/\+Uniting\+Twist/app/src/main/java/ru/litun/unitingtwist/\textbf{ Angle\+Listener.\+java}\end{DoxyCompactItemize}
